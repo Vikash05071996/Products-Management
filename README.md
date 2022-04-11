@@ -127,6 +127,7 @@ On error - Return a suitable error message with a valid HTTP status code. The re
 }
 
 POST /login
+
 Allow an user to login with their email and password.
 
 On a successful login attempt return the userId and a JWT token contatining the userId, exp, iat.
