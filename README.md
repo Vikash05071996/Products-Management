@@ -22,7 +22,7 @@ In this project we will work feature wise. That means we pick one object like us
 
 # Models
 * User Model
-* { 
+/#{ 
   fname:  {string, mandatory},
   lname:  {string, mandatory},
   email:  {string, mandatory, valid email, unique},
@@ -43,5 +43,5 @@ In this project we will work feature wise. That means we pick one object like us
   },
   createdAt:  {timestamp},
   updatedAt:  {timestamp}
-}
+}#/
 
