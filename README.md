@@ -52,4 +52,15 @@ In this project we will work feature wise. That means we pick one object like us
     createdAt:  {timestamp},
    updatedAt:  {timestamp}
 }
+# User APIs
+Create a user document from request body. Request body must contain image.
 
+Upload image to S3 bucket and save it's public url in user document.
+
+Save password in encrypted format. (use bcrypt)
+
+Response format
+
+On success - Return HTTP status 201. Also return the user document. The response should be a JSON object like this
+
+On error - Return a suitable error message with a valid HTTP status code. The response should be a JSON object like this
