@@ -21,7 +21,9 @@ In this project we will work feature wise. That means we pick one object like us
 # FEATURE I - User
 
 # Models
-* User Model
+
+*
+*   User Model
 
 { 
   fname:  {string, mandatory},
@@ -63,6 +65,8 @@ In this project we will work feature wise. That means we pick one object like us
     
    updatedAt:  {timestamp}
 }
+
+
 # User APIs
 Create a user document from request body. Request body must contain image.
 
