@@ -125,3 +125,17 @@ On error - Return a suitable error message with a valid HTTP status code. The re
         "__v": 0
     }
 }
+
+POST /login
+Allow an user to login with their email and password.
+
+On a successful login attempt return the userId and a JWT token contatining the userId, exp, iat.
+
+NOTE: There is a slight change in response body. You should also return userId in addition to the JWT token.
+
+
+Response format
+
+On success - Return HTTP status 200 and JWT token in response body. The response should be a JSON object like this
+
+On error - Return a suitable error message with a valid HTTP status code. The response should be a JSON object like this
