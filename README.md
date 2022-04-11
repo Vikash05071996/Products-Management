@@ -64,3 +64,32 @@ Response format
 On success - Return HTTP status 201. Also return the user document. The response should be a JSON object like this
 
 On error - Return a suitable error message with a valid HTTP status code. The response should be a JSON object like this
+
+{
+    "status": true,
+    "message": "User created successfully",
+    "data": {
+        "fname": "John",
+        "lname": "Doe",
+        "email": "johndoe@mailinator.com",
+        "profileImage": "https://classroom-training-bucket.s3.ap-south-1.amazonaws.com/user/copernico-p_kICQCOM4s-unsplash.jpg",
+        "phone": 9876543210,
+        "password": "$2b$10$DpOSGb0B7cT0f6L95RnpWO2P/AtEoE6OF9diIiAEP7QrTMaV29Kmm",
+        "address": {
+            "shipping": {
+                "street": "MG Road",
+                "city": "Indore",
+                "pincode": 452001
+            },
+            "billing": {
+                "street": "MG Road",
+                "city": "Indore",
+                "pincode": 452001
+            }
+        },
+        "_id": "6162876abdcb70afeeaf9cf5",
+        "createdAt": "2021-10-10T06:25:46.051Z",
+        "updatedAt": "2021-10-10T06:25:46.051Z",
+        "__v": 0
+    }
+}
