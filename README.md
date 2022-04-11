@@ -22,6 +22,7 @@ In this project we will work feature wise. That means we pick one object like us
 
 # Models
 * User Model
+* 
 { 
   fname:  {string, mandatory},
   
@@ -38,18 +39,23 @@ In this project we will work feature wise. That means we pick one object like us
   address: {
     shipping: {
       street:  {string, mandatory},
+      
       city:  {string, mandatory},
+      
       pincode:  {number, mandatory}
     },
     
    billing: {
       street:  {string, mandatory},
+      
       city:  {string, mandatory},
+      
       pincode:  {number, mandatory}
     }
   },
 
     createdAt:  {timestamp},
+    
    updatedAt:  {timestamp}
 }
 # User APIs
